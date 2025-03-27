@@ -76,10 +76,24 @@ python Flappy.py
 - Collision detection
 - Progressive difficulty
 
+## Credits
+
+### Assets
+- Game assets (sprites, sounds, UI elements) by [KosresetR55](https://kosresetr55.itch.io/flappy-bird-assets-by-kosresetr55)
+- Original art style and game concept by Dong Nguyen
+
+### Development
+- Python implementation by [Your Name]
+- Built with Pygame framework
+
 ## Contributing
 
-Feel free to fork this project and submit pull requests with improvements!
+Feel free to fork this project and submit pull requests with improvements! Areas for potential enhancement:
+- Additional game modes
+- High score system
+- Difficulty settings
+- Mobile touch controls
 
 ## License
 
-This project is for educational purposes only. Flappy Bird was originally created by Dong Nguyen.
+This project is for educational purposes only. The original Flappy Bird game was created by Dong Nguyen and .GEARS (now Gears). Game assets are provided by KosresetR55 under their license terms.
