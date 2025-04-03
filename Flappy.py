@@ -1,6 +1,7 @@
 import pygame
 import random
 import os
+import webbrowser
 
 pygame.init()
 pygame.mixer.init()
@@ -216,7 +217,8 @@ def main():
                     pipe.passed = True
                     if POINT_SOUND:
                         POINT_SOUND.play()
-                    if score >= 101:
+                    if score > 100:
+                        webbrowser.open('https://youtu.be/XeiZD3ve-fI?si=U2cl40ATeIX14Dh6')
                         running = False
 
                 if pipe.x < -60:
